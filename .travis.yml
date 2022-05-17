@@ -8,4 +8,4 @@ before_install:
   - bal version
   - sudo bal dist update
 script:
-  -  ball pull ballerinax/twitter
+  -  bal pull ballerinax/twitter
