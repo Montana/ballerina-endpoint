@@ -15,4 +15,3 @@ script:
   - bal grpc --input helloworld.proto --mode service --output service
   - bal grpc --input helloworld.proto --mode client --output client
   - bal grpc --input helloworld.proto --output stubs
-
