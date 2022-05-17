@@ -1,6 +1,5 @@
 import ballerina/io;
 
-
 type Relation "<"|"="|"<>";
 type Proposition [Relation, Type, Type];
 
@@ -39,7 +38,7 @@ function unionReflexive(Proposition p) returns Proposition {
 function intersection(Proposition p) returns Proposition {
     match p[0] {
         "<" => {
-            // JBUG empty array is accepted as an intersection
+           
             Intersection t = ["&", p[1], p[2]];
             return ["=", t, p[1]];
         }
