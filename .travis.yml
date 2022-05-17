@@ -10,4 +10,5 @@ before_install:
   - sudo bal dist update
 script:
   - bal pull ballerinax/twitter
+  - bal new greeter
   - bal run main.bal
