@@ -12,4 +12,4 @@ script:
   - bal pull ballerinax/twitter
   - bal run main.bal
   - bal search apache
-  - bal test ballerinax/Apache
+  - bal test main.bal
