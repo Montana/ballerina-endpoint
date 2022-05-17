@@ -1,0 +1,7 @@
+dist: xenial
+services:
+  - docker
+before_install:
+  - wget https://dist.ballerina.io/downloads/2201.0.2/ballerina-2201.0.2-swan-lake-linux-x64.deb
+  - sudo dpkg -i ballerina*.deb
+  - bal version
