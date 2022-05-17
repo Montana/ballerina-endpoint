@@ -7,3 +7,5 @@ before_install:
   - sudo dpkg -i ballerina*.deb
   - bal version
   - sudo bal dist update
+script:
+  -  ballerina-pull ballerinax/twitter
