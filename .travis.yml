@@ -9,3 +9,4 @@ before_install:
   - sudo bal dist update
 script:
   - bal pull ballerinax/twitter
+  - build run main.bal
